@@ -1,0 +1,12 @@
+﻿  fileHandlingW3School.cpp
+C:\Users\Praktikum\source\repos\fileHandlingW3School\fileHandlingW3School\fileHandlingW3School.cpp(148,33): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Praktikum\source\repos\fileHandlingW3School\fileHandlingW3School\fileHandlingW3School.cpp(149,46): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Praktikum\source\repos\fileHandlingW3School\fileHandlingW3School\fileHandlingW3School.cpp(143,28): warning C4930: 'std::vector<std::string,std::allocator<std::string>> wordsInline(void)': prototyped function not called (was a variable definition intended?)
+C:\Users\Praktikum\source\repos\fileHandlingW3School\fileHandlingW3School\fileHandlingW3School.cpp(407,7): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Praktikum\source\repos\fileHandlingW3School\fileHandlingW3School\fileHandlingW3School.cpp(419,59): error C2664: '__time64_t std::chrono::system_clock::to_time_t(const std::chrono::system_clock::time_point &) noexcept': cannot convert argument 1 from 'std::filesystem::file_time_type' to 'const std::chrono::system_clock::time_point &'
+C:\Users\Praktikum\source\repos\fileHandlingW3School\fileHandlingW3School\fileHandlingW3School.cpp(419,69): message : Reason: cannot convert from 'std::filesystem::file_time_type' to 'const std::chrono::system_clock::time_point'
+C:\Users\Praktikum\source\repos\fileHandlingW3School\fileHandlingW3School\fileHandlingW3School.cpp(419,69): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.35.32215\include\__msvc_chrono.hpp(646,38): message : see declaration of 'std::chrono::system_clock::to_time_t'
+C:\Users\Praktikum\source\repos\fileHandlingW3School\fileHandlingW3School\fileHandlingW3School.cpp(419,59): message : while trying to match the argument list '(std::filesystem::file_time_type)'
+C:\Users\Praktikum\source\repos\fileHandlingW3School\fileHandlingW3School\fileHandlingW3School.cpp(420,49): error C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Praktikum\source\repos\fileHandlingW3School\fileHandlingW3School\fileHandlingW3School.cpp(463,1): error C2143: syntax error: missing ';' before '}'
